@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r5">
+    <folder id="0">
+        <file id="0" name="shadow tendril.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="shadow tendril2.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="shadow tendril3.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="shadowdog torso.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="shadowdog head.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="shadowdog arm1.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="shadowdog arm2.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="shadowdog fingers.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="0" z_index="6"/>
+                </key>
+                <key id="1" time="195">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="1" z_index="6"/>
+                </key>
+                <key id="2" time="500">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="2" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="2" z_index="5"/>
+                    <object_ref id="6" timeline="6" key="2" z_index="6"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="shadow tendril">
+                <key id="0" spin="-1">
+                    <object folder="0" file="0" x="-995.848485" y="117.909091" a="0.1"/>
+                </key>
+                <key id="1" time="500">
+                    <object folder="0" file="0" x="-823.121212" y="449.727273" angle="346.321847" scale_y="1" a="0.2"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="shadow tendril2">
+                <key id="0">
+                    <object folder="0" file="1" x="-1033.333333" y="996.969697" a="0.1"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <object folder="0" file="1" x="-1119.69697" y="768.181818" angle="13.620168" a="0.2"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="shadow tendril3">
+                <key id="0" spin="-1">
+                    <object folder="0" file="2" x="-1042.424242" y="569.69697" a="0.1"/>
+                </key>
+                <key id="1" time="500">
+                    <object folder="0" file="2" x="-884.848485" y="1054.545455" angle="339.293888" scale_x="1" scale_y="1" a="0.2"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="shadowdog torso">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-1412.121212" y="487.878788" a="0.1"/>
+                </key>
+                <key id="1" time="195" spin="0">
+                    <object folder="0" file="3" x="-1409.757576" y="476.060606" a="0.3"/>
+                </key>
+                <key id="2" time="500" spin="0">
+                    <object folder="0" file="3" x="-1406.060606" y="457.575758" a="0.2"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="shadowdog head">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-1393.939394" y="460.606061" a="0.1"/>
+                </key>
+                <key id="1" time="195" spin="0">
+                    <object folder="0" file="4" x="-1393.939394" y="452.333333" a="0.3"/>
+                </key>
+                <key id="2" time="500" spin="0">
+                    <object folder="0" file="4" x="-1393.939394" y="439.393939" a="0.2"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="shadowdog arm1">
+                <key id="0" spin="-1">
+                    <object folder="0" file="5" x="-1400" y="475.757576" a="0.1"/>
+                </key>
+                <key id="1" time="195" spin="-1">
+                    <object folder="0" file="5" x="-1377.545455" y="517.121212" angle="357.769562" a="0.2"/>
+                </key>
+                <key id="2" time="500">
+                    <object folder="0" file="5" x="-1342.424242" y="581.818182" angle="354.280927" a="0.2"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="shadowdog arm2">
+                <key id="0">
+                    <object folder="0" file="6" x="-1381.818182" y="506.060606" a="0.1"/>
+                </key>
+                <key id="1" time="195">
+                    <object folder="0" file="6" x="-1406.636364" y="450.515152" angle="2.052823" a="0.25"/>
+                </key>
+                <key id="2" time="500" spin="-1">
+                    <object folder="0" file="6" x="-1445.454545" y="363.636364" angle="5.263648" scale_x="1" scale_y="1" a="0.2"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r5">
+    <folder id="0" name="baby bear">
+        <file id="0" name="baby bear/babybear torso.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="baby bear/babybear topleft leg.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="baby bear/babybear head.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="baby bear/babybear topright leg.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="baby bear/babybear bottomright leg.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="baby bear/babybear botleft leg.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="5" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="3" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="0" z_index="5"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="5" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="3" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="babybear torso">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-581.615385" y="806.75641"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="0" x="-579.051282" y="788.807692"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="babybear topleft leg">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-569.692308" y="828.935897"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="babybear head">
+                <key id="0">
+                    <object folder="0" file="2" x="-611.102564" y="819.064103"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <object folder="0" file="2" x="-657.977564" y="712.189103" angle="5.64506"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="babybear topright leg">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-579.487179" y="804.00641"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="babybear bottomright leg">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-565.865385" y="790.865385"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="babybear botleft leg">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-704.807692" y="817.628205"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

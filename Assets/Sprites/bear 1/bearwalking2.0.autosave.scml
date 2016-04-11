@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r5">
+    <folder id="0">
+        <file id="0" name="bear botleft leg.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="bear botright leg.png" width="1080" height="1920" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="bearhead.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="bear topleft leg.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="bear topright leg.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="bear torso.png" width="1920" height="1080" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="0" z_index="5"/>
+                </key>
+                <key id="1" time="190">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="0" z_index="5"/>
+                </key>
+                <key id="2" time="201">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="1" z_index="5"/>
+                </key>
+                <key id="3" time="398">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="2" z_index="5"/>
+                </key>
+                <key id="4" time="403">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="2" z_index="5"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="2" z_index="5"/>
+                </key>
+                <key id="6" time="597">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="2" z_index="5"/>
+                </key>
+                <key id="7" time="603">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="2" z_index="5"/>
+                </key>
+                <key id="8" time="802">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="5" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="2" z_index="4"/>
+                    <object_ref id="5" timeline="4" key="2" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="bear botleft leg">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-934.814815" y="640" angle="0"/>
+                </key>
+                <key id="1" time="190" spin="0">
+                    <object folder="0" file="0" x="-931.111111" y="684.444444" angle="0"/>
+                </key>
+                <key id="2" time="403" spin="0">
+                    <object folder="0" file="0" x="-928.381344" y="624.609053" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bear botright leg">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-541.481482" y="712.592593" angle="0"/>
+                </key>
+                <key id="1" time="603" spin="0">
+                    <object folder="0" file="1" x="-519.25926" y="738.518518" angle="0"/>
+                </key>
+                <key id="2" time="802" spin="0">
+                    <object folder="0" file="1" x="-537.805766" y="681.078459" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bearhead">
+                <key id="0" spin="-1">
+                    <object folder="0" file="2" x="-891.111111" y="685.185186" angle="0"/>
+                </key>
+                <key id="1" time="201" spin="-1">
+                    <object folder="0" file="2" x="-879.888889" y="747.496297" angle="358.927681" scale_y="1"/>
+                </key>
+                <key id="2" time="500">
+                    <object folder="0" file="2" x="-835.555555" y="729.62963" angle="357.332539" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="bear topleft leg">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-878.518519" y="648.888889" angle="0"/>
+                </key>
+                <key id="1" time="597" spin="0">
+                    <object folder="0" file="3" x="-878.518519" y="715.555555" angle="0"/>
+                </key>
+                <key id="2" time="802" spin="0">
+                    <object folder="0" file="3" x="-874.814815" y="640.90249" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="bear topright leg">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-888.148148" y="635.555556" angle="0"/>
+                </key>
+                <key id="1" time="201" spin="0">
+                    <object folder="0" file="4" x="-865.925926" y="687.407407" angle="0"/>
+                </key>
+                <key id="2" time="398" spin="0">
+                    <object folder="0" file="4" x="-875.1087" y="622.771056" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="bear torso">
+                <key id="0" spin="-1">
+                    <object folder="0" file="5" x="-889.62963" y="640" angle="0"/>
+                </key>
+                <key id="1" time="500">
+                    <object folder="0" file="5" x="-863.703704" y="654.814814" angle="358.032279"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
